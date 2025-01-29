@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #128d45;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menu-item {
+    background-color: #ffffff;
+    border: 2px solid #128d45;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item h2 {
+    color: #128d45;
+}
+.feedback-form {
+    background-color: #ffccbc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.feedback-form h2 {
+    color: #d84315;
+}
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff7043;
+    border-radius: 5px;
+}
+.feedback-form button {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-form button:hover {
+    background-color: #d84315;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+header nav {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 10px; 
+}
+
+header nav a {
+    text-decoration: none; 
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    background-color: #128d45; 
+    transition: background-color 0.3s ease; 
+}
+
+header nav a:hover {
+    background-color: #0a612e; 
+}
+.menu-item a{
+    color: #d84315;
+    text-decoration: none;
+}
+
+.bigimg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+}
+/*______________________
